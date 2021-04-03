@@ -1,7 +1,9 @@
+<h2>{{ element.name }}</h2>
 <div class="card">
-  <div class="card-body">
-    <h5 class="card-title">{{ element.name }}</h5>
-    <p class="card-text">
+  <img src="https://www.w3schools.com/howto/img_avatar.png" alt="Avatar" height="200px" width="200px" />
+  <div class="container">
+    <h4><b>{{ element.name }}</b></h4>
+    <p>
       <strong *ngIf="element.name === 'purple'" style="color: purple">
         {{ element.description }}</strong
       >

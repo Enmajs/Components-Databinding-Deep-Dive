@@ -10,8 +10,5 @@ export class AppComponent {
     { type: 'server', name: 'test server', content: 'just a test!!' },
   ];
 
-  colors = [
-    { name: 'purple', description: 'color purple' },
-    { name: 'blue', description: 'color blue' }
-  ];
+  colors = [{ name: 'purple', description: 'color purple' }];
 }
