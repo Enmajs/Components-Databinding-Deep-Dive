@@ -1,0 +1,13 @@
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">{{ element.name }}</h5>
+    <p class="card-text">
+      <strong *ngIf="element.name === 'purple'" style="color: purple">
+        {{ element.description }}</strong
+      >
+      <em *ngIf="element.name === 'blue'" style="color: blue">
+        {{ element.description }}</em
+      >
+    </p>
+  </div>
+</div>
